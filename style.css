@@ -1,0 +1,41 @@
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bio h2 {
+  margin-bottom: 10px;
+}
+
+.linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.linkedin-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.linkedin-btn:hover {
+  background-color: #005582;
+}
